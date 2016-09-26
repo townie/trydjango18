@@ -13,4 +13,4 @@ class SignUp(models.Model):
         return self
 
     def __str__(self):
-        return self
+        return self.email
